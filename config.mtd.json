@@ -1,0 +1,115 @@
+{
+    "config": {
+        "L1": "YourLanguage",
+        "L2": "English",
+        "l1_search_strategy": "weighted_levenstein",
+        "l2_search_strategy": "liblevenstein_automata",
+        "l1_search_config": {
+            "insertionCost": 1.0,
+            "deletionCost": 1.0,
+            "insertionAtBeginningCost": 1.0,
+            "deletionAtEndCost": 1.0,
+            "substitutionCosts": {},
+            "defaultSubstitutionCost": 1.0
+        },
+        "l1_stemmer": "none",
+        "l2_stemmer": "snowball_english",
+        "l1_normalization_transducer": {
+            "lower": true,
+            "unicode_normalization": "NFC",
+            "remove_punctuation": "[.,/#!$%^&?*';:{}=\\-_`~()]",
+            "remove_combining_characters": true
+        },
+        "l2_normalization_transducer": {
+            "lower": true,
+            "unicode_normalization": "NFC",
+            "remove_punctuation": "[.,/#!$%^&?*';:{}=\\-_`~()]",
+            "remove_combining_characters": true
+        },
+        "alphabet": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j",
+            "k",
+            "l",
+            "m",
+            "n",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "t",
+            "u",
+            "v",
+            "w",
+            "x",
+            "y",
+            "z",
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "U",
+            "V",
+            "W",
+            "X",
+            "Y",
+            "Z"
+        ],
+        "optional_field_name": "Optional Field",
+        "build": "1694556630",
+        "no_sort_characters": [],
+        "sorting_field": "word",
+        "l1_keys_to_index": [
+            "word"
+        ],
+        "l2_keys_to_index": [
+            "definition"
+        ],
+        "duplicate_fields_subset": [
+            "word",
+            "entryID"
+        ],
+        "required_fields": [
+            "word",
+            "definition"
+        ]
+    },
+    "data": [{
+        "manifest": {
+            "file_type": "csv",
+            "name": "YourData",
+            "skip_header": false,
+            "transducers": [],
+            "targets": {
+                "word": 0,
+                "definition": 1
+            }
+        },
+        "resource": "data.csv"
+    }]
+}
