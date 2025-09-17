@@ -1,6 +1,6 @@
 {
     "config": {
-        "L1": "YourLanguage",
+        "L1": "Woleaian",
         "L2": "English",
         "l1_search_strategy": "weighted_levenstein",
         "l2_search_strategy": "liblevenstein_automata",
@@ -78,7 +78,16 @@
             "W",
             "X",
             "Y",
-            "Z"
+            "Z",
+            "iu",
+            "eo",
+            "oa",
+            "mw",
+            "bw",
+            "pw",
+            "ch",
+            "ng",
+            "sh",            
         ],
         "optional_field_name": "Optional Field",
         "build": "1694556630",
