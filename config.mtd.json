@@ -111,7 +111,7 @@
     "data": [{
         "manifest": {
             "file_type": "csv",
-            "name": "YourData",
+            "name": "data.csv",
             "skip_header": false,
             "transducers": [],
             "targets": {
