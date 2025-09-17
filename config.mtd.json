@@ -89,9 +89,10 @@
             "ng",
             "sh",            
         ],
+        "aboutPageDescription": "This is the start of the Woleaian Digital Dictionary Project.",
         "optional_field_name": "Optional Field",
         "build": "1694556630",
-        "no_sort_characters": [],
+        "no_sort_characters": [",", "(", ")"],
         "sorting_field": "word",
         "l1_keys_to_index": [
             "word"
@@ -111,7 +112,7 @@
     "data": [{
         "manifest": {
             "file_type": "csv",
-            "name": "data.csv",
+            "name": "data",
             "skip_header": false,
             "transducers": [],
             "targets": {
